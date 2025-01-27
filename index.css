@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Playwrite+IN:wght@100..400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Macondo", serif;
+}
+body{
+  background: #cb9259;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn{
+  background: #431e08;
+  color: #d3a075;
+  padding: 10px 25px;
+  font-size: 23px;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  border:0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* ----- media query ----- */
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
+}
